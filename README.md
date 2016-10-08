@@ -41,7 +41,7 @@ private void GetSentence(string text){
 
 ## API
 
-### Class CKIPUnity
+### Class: CKIPUnity
 
 ##### new CKIPUnity(string api_key,MonoBehaviour mono)
 Setup and create CKIP connection.
@@ -86,7 +86,7 @@ private void GetTermResult(string text){
 }
 ```
 
-### Util Tool : @List<string> CKIPUnity.ParseXMLToList(string text)
+### Util Tool: @List<string> CKIPUnity.ParseXMLToList(string text)
 Parse XML string, inner value `sentence` to List.
 ```cs
 List<string> list = CKIPUnity.ParseXMLToList(text);
