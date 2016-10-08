@@ -12,7 +12,7 @@ public class Usage : MonoBehaviour {
 
 		ckip.getText ("你好，這裡是一個程式碼的測試",GetText);
 		ckip.getTerm ("你好，這裡是一個程式碼的測試",GetTerm);
-    ckip.getSentence("你好，這裡是一個程式碼的測試",GetSentence);
+    		ckip.getSentence("你好，這裡是一個程式碼的測試",GetSentence);
 
 	}
 	
